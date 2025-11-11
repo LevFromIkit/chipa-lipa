@@ -7,7 +7,7 @@ declare class MiniLibi {
 
 declare class KokralComponent {
     static ɵfac: i0.ɵɵFactoryDeclaration<KokralComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<KokralComponent, "ttl-kokral.component", never, {}, {}, never, never, true, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<KokralComponent, "ttl-kokral", never, {}, {}, never, never, true, never>;
 }
 
 export { KokralComponent, MiniLibi };
