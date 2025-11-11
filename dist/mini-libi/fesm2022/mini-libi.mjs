@@ -18,6 +18,15 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "20.3.10", ngImpo
   ` }]
         }] });
 
+class KokralComponent {
+    static ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "20.3.10", ngImport: i0, type: KokralComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+    static ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "20.3.10", type: KokralComponent, isStandalone: true, selector: "ttl-kokral.component", ngImport: i0, template: "<p>kokral.component works!</p>\r\n", styles: [""] });
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "20.3.10", ngImport: i0, type: KokralComponent, decorators: [{
+            type: Component,
+            args: [{ selector: 'ttl-kokral.component', imports: [], standalone: true, template: "<p>kokral.component works!</p>\r\n" }]
+        }] });
+
 /*
  * Public API Surface of mini-libi
  */
@@ -26,5 +35,5 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "20.3.10", ngImpo
  * Generated bundle index. Do not edit.
  */
 
-export { MiniLibi };
+export { KokralComponent, MiniLibi };
 //# sourceMappingURL=mini-libi.mjs.map
